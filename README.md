@@ -1,8 +1,8 @@
 <div align="center">
 
-# Cheet-Sheet
+# Cheat-Sheet
 
-### _This repo is exactly what it sounds like_
+### _This repo is exactly what it sounds like._
 
 ---
 
@@ -27,12 +27,11 @@
 ---
 
 ## Description
-    This repo allows me to quickly reference helpful links to things I find myself constantly Googling.
-
+    A collection of code-links that allows me to quickly access answers to things I find myself constantly Googling.
 
 ## Deployed Site
 
-Coming Soon!
+https://celestealexmoore.github.io/Cheat-Sheet/
 
 
 ## Contributors
