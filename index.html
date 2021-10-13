@@ -2,50 +2,298 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-    <h2>This is my code snippet cheat-sheet for common problems I don't want to waste time Googling frequently.</h2>
-
-    <ul>
-        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Complete guide to Flexbox</a></li>
-        <li><a href="https://stackoverflow.com/questions/14310154/how-do-i-set-a-background-color-for-the-width-of-text-not-the-width-of-the-enti">Background-color for the width of text, not the width of the entire element, using CSS.
-        </a></li>
-        <li><a href="file:///Users/davidzokai/Desktop/BootCamp/01-HTML-Git-CSS/01-Activities/15-Ins_HTML-display/index.html">CSS Display Property: Inline and Block</a></li>
-        <li><a href="https://www.w3schools.com/cssref/css3_pr_transform.asp">CSS transform Property (Rotate, Skew and Scale Images)</a></li>
-        <li><a href="https://www.w3schools.com/css/css_float.asp">What is the CSS `float` property?</a></li>
-        <li><a href="https://css-tricks.com/centering-css-complete-guide/">Centering in CSS: A complete Guide.</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units">Css Values and Units</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor">How can CSS be used to apply a different style to an <a> element when a cursor points at it?</a></li>
-        <li><a href="https://www.w3schools.com/css/css_navbar_horizontal.asp">Horizontal Nav Bar CSS</a></li>
-        <li><a href="https://stackoverflow.com/questions/1027354/i-need-an-unordered-list-without-any-bullets">`Removing bullets from <li>`</a></li>
-        <li><a href="https://daringfireball.net/projects/markdown/syntax">Markdown Syntax</a></li>
-        <li><a href="https://github.com/Ileriayo/markdown-badges">Markdown badges</a></li>
-        <li><a href="https://tailblocks.cc/">Tailblocks</a></li>
-        <li><a href="https://www.frontendmentor.io/">Front-End Practice</a></li>
-        <li><a href="https://jorovernier.github.io/portfolio/"></a>Really liked the skills on this website</li>
-        <li><a href="https://celestealexmoore.github.io/Celeste-Moore-Portfolio/">My Portfolio</a></li>
-        <li><a href="https://witnessmyhands.github.io/Portfolio-3/#about">Carlos Cool Portfolio</a></li>
-        <li><a href="https://www.w3schools.com/howto/howto_html_download_link.asp">How to create a downloadable link</a></li>
-        
-        
-        <li><a href="http://findmatthew.com/">Find Matthew dot com (React site I like)</a></li>
-        <li><a href="https://www.scott.is/">Scott is dot com (css site I like)</a></li>
 
 
-        <li><a href="https://www.figma.com/file/qNLG2DvzowucTvhyYoM6KB/HTML-%26-CSS-Engineer-Mini-Project?node-id=0%3A1">HTML & CSS Mini Project to tackle</a></li>
-        <li><a href="https://www.youtube.com/watch?v=QY7Rj8aZcZk">How to make shapes with CSS *Really good</a></li>
-        <li><a href="https://bennettfeely.com/clippy/">CSS Clip Path Shape Maker</a></li>
-        <li><a href="file:///Users/davidzokai/Desktop/BootCamp/02-Advanced-CSS/01-Activities/28-Stu_Mini-Project/Main/index.html">CSS Bootcamp Cheatsheet</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+<header>
+    <h1 class="page-title">
+        Code Cheatsheet
+    </h1>
+    <p>
         
-    </ul>
+    <h4>Always in an open-tab on Celeste's computer for things I don't want to waste time Googling frequently.</h4>
+    </p>
+    </header>
+
+    <main>
+    <section class="row justify-center">
+        <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">Flexbox</h2>
+            <div class="card-body">
+            <p>Complete guide to Flexbox</p>
+            </div>
+            <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
+                <pre class="code-block">This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items).</pre>
+        </figure>
+        </a>
+        <a href="http://findmatthew.com/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">React Portfolio Inspiration</h2>
+                <div class="card-body">
+                <p>findmatthew.com</p>
+                </div>
+                <pre class="code-block">Click Me</pre>
+            </figure>
+        </a>
+        <a href="https://www.scott.is/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Portfolio Inspiration</h2>
+                <div class="card-body">
+                <p>scott.is</p>
+                </div>
+                <pre class="code-block">Click Me</pre>
+            </figure>
+        </a>
+        <a href="https://bennettfeely.com/clippy/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Clip Path</h2>
+                <div class="card-body">
+                <p>Clip path maker for small div shapes.</p>
+                </div>
+                <pre class="code-block">The clip-path property allows you to make complex shapes in CSS by clipping an element to a basic shape (circle, ellipse, polygon, or inset), or to an SVG source. <br><br> CSS Animations and transitions are possible with two or more clip-path shapes with the same number of points.</pre>
+            </figure>
+        </a>
+        <a href="https://www.w3schools.com/howto/howto_html_download_link.asp" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Downloadable Link</h2>
+                <div class="card-body">
+                <p>How to create a downloadable link for PDF documents</p>
+                </div>
+                <pre class="code-block">Click Me</pre>
+            </figure>
+        </a>
+
+
+        <a href="https://dev.to/ethanmgustafson/simple-guide-to-css-grid-3cja" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Grid</h2>
+                <div class="card-body">
+                <p>Simple Guide to CSS Grid</p>
+                </div>
+                <pre class="code-block">Grid is a layout module in CSS that utilizes columns and rows to create responsive web design layouts.</pre>
+            </figure>
+        </a>
+        <a href="https://dev.to/ethanmgustafson/css-float-flexbox-14fg" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Float vs. Flexbox</h2>
+                <div class="card-body">
+                <p>Contains additional, useful advice on Flexbox.</p>
+                </div>
+                <pre class="code-block">Instead of using a float to create layouts by floating elements to the left or the right, flexbox allows you to create layouts by aligning items to a single axis. The axis can be horizontal or vertical. It is best used for distributing space for items in the same axis.</pre>
+            </figure>
+        </a>
+        <a href="https://coolors.co/fbfbff-1b4965-ffbfcd-a26769-6d2e46" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Color Scheme Generator</h2>
+                <div class="card-body">
+                <p>This is exactly what it says it is.</p>
+                </div>
+                <pre class="code-block">Allow me to reintroduce myself. My name is Color Scheme Generator.</pre>
+            </figure>
+        </a>
+        <a href="https://css-tricks.com/centering-css-complete-guide/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Centering</h2>
+                <div class="card-body">
+                <p>A complete guide to centering in CSS.</p>
+                </div>
+                <pre class="code-block">Centering things in CSS is the poster child of CSS complaining. Why does it have to be so hard? They jeer. I think the issue isn’t that it’s difficult to do, but in that there so many different ways of doing it, depending on the situation, it’s hard to know which to reach for.</pre>
+            </figure>
+        </a>
+        <a href="https://www.frontendmentor.io/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Practice Front-End Skills</h2>
+                <div class="card-body">
+                <p>CSS challenges</p>
+                </div>
+                <pre class="code-block">Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.</pre>
+            </figure>
+        </a>
+        <a href="https://www.w3schools.com/cssref/css3_pr_transform.asp" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Transform</h2>
+                <div class="card-body">
+                <p>CSS Transform Property, (Scale, Rotate and Skew)</p>
+                </div>
+                <pre class="code-block">The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.</pre>
+            </figure>
+        </a>
+        <a href="https://daringfireball.net/projects/markdown/syntax" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Markdown</h2>
+                <div class="card-body">
+                <p>Markdown Syntax for ReadMe.md Files.</p>
+                </div>
+                <pre class="code-block">Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</pre>
+            </figure>
+        </a>
+        <a href="https://www.w3schools.com/css/css_float.asp" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Float Property</h2>
+                <div class="card-body">
+                <p>What is CSS Float?</p>
+                </div>
+                <pre class="code-block">The CSS float property specifies how an element should float. <br><br>The CSS clear property specifies what elements can float beside the cleared element and on which side.</pre>
+            </figure>
+        </a>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Values and Units</h2>
+                <div class="card-body">
+                <p>This is exactly what it says it is.</p>
+                </div>
+                <pre class="code-block">In this lesson we will take a look at some of the most frequently used value types, and their most common values and units.</pre>
+            </figure>
+        </a>
+        <a href="https://www.youtube.com/watch?v=QY7Rj8aZcZk" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Shapes</h2>
+                <div class="card-body">
+                <p>Making shapes with CSS.</p>
+                </div>
+                <pre class="code-block">**This video is really good.</pre>
+            </figure>
+        </a>
+        <a href="file:///Users/davidzokai/Desktop/BootCamp/01-HTML-Git-CSS/01-Activities/15-Ins_HTML-display/index.html" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">CSS Display Property</h2>
+                <div class="card-body">
+                <p>All about CSS Display</p>
+                </div>
+                <pre class="code-block">Inline and Block elements.</pre>
+            </figure>
+        </a>
+        <a href="https://tailblocks.cc/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">TailBlocks</h2>
+                <div class="card-body">
+                <p>For whenever you just need to cheat. It's been a long life. Treat yourself.</p>
+                </div>
+                <pre class="code-block">Find your layout and customize the code.</pre>
+            </figure>
+        </a>
+        <a href="https://jorovernier.github.io/portfolio/" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">React Portfolio</h2>
+                <div class="card-body">
+                <p>A Simple React Portfolio for Inspiration. </p>
+                </div>
+                <pre class="code-block">By Joely Vernier</pre>
+            </figure>
+        </a>
+        <a href="https://witnessmyhands.github.io/Portfolio-3/#about" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">React Portfolio</h2>
+                <div class="card-body">
+                <p>A Super Cool React Portfolio for Inspiration. </p>
+                </div>
+                <pre class="code-block">By Carlos Barrientos</pre>
+            </figure>
+        </a>
+
+
+
+
+
+
+
+
+
+        <a href="https://github.com/Ileriayo/markdown-badges" class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Markdown Badges</h2>
+                <div class="card-body">
+                <p>A complete list of all Markdown Badges via Github.</p>
+                </div>
+                <pre class="code-block">Click me.</pre>
+            </figure>
+        </a>
+    
+<!-- _________________________________________________________________________________________________ -->
+
+        <div class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">Flexbox Column</h2>
+            <div class="card-body">
+            <p>Use this to create a Flexbox column layout.</p>
+            </div>
+            <pre class="code-block"><code>.column {
+    display: flex;
+    flex-direction: column
+}</code></pre>
+        </figure>
+        </div>
+
+        <div class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">CSS Grid Layout</h2>
+            <div class="card-body">
+            <p>Build a 12-column layout using CSS Grid</p>
+            </div>
+            <pre class="code-block"><code>.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}</code></pre>
+        </figure>
+        </div>
+        <div class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">Linear Gradients</h2>
+            <div class="card-body">
+            <p>This will create a background linear gradient from top to bottom.</p>
+            </div>
+            <pre class="code-block"><code>.linear-gradient-background {
+    background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+}</code></pre>
+        </figure>
+        </div>
+        <div class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">Box Transition Glow</h2>
+            <div class="card-body">
+            <p>Use transition and box shadows to glow on hover.</p>
+            </div>
+            <pre class="code-block"><code>.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}</code></pre>
+        </figure>
+        </div>
+
+        <div class="card-column">
+        <figure class="card code-card">
+            <h2 class="card-header">Overlay Card with Title</h2>
+            <div class="card-body">
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.
+            </p>
+            </div>
+            <pre class="code-block"><code>.card-header {
+    position: relative;
+    margin-top: -20px;
+}</code></pre>
+        </figure>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+    <h3>Made with <span role="img" aria-label="heart">❤️</span> and CSS</h3>
+    </footer>
 
 </body>
 </html>
