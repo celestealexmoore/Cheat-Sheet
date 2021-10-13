@@ -12,6 +12,7 @@
 
 - [Description](#Description)
 
+- [Media](#Media)
 
 - [Deployed Site](#deployed-site)
 
@@ -26,8 +27,13 @@
 
 ---
 
+
 ## Description
     A collection of code-links that allows me to quickly access answers to things I find myself constantly Googling.
+
+## Media
+
+![Photo 1](./assets/photos/sitePic.png)
 
 ## Deployed Site
 
